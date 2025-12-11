@@ -37,7 +37,7 @@ Dashboard: http://192.168.1.15:8502
 # 📁 Project Structure
 
 Praetorian/
-│
+| 
 ├── app/
 │ ├── dashboard.py # Streamlit UI
 │ ├── preprocess.py # Preprocessing functions (train + test)
