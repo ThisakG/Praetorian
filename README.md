@@ -35,7 +35,7 @@ Dashboard: http://192.168.1.15:8502
 ---
 
 # 📁 Project Structure
-
+```
 Praetorian/
 | 
 ├── app/
@@ -60,9 +60,10 @@ Praetorian/
 │ └── charts.png # Saved visualizations (optional)
 │
 └── README.md
+```
 
 # 🏢 System Architecture Visualized
-
+```
  ┌───────────────────────────────────────┐
  │           Synthetic Data              │
  │     (data/generate_synthetic.py)      │
@@ -92,7 +93,7 @@ Praetorian/
  │    Upload CSV → Preprocess/Score →    │
  │        Visualize anomalies            │
  └───────────────────────────────────────┘
-
+```
 ---
 
 # 🔧 Tech stack
