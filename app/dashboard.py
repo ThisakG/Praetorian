@@ -49,7 +49,7 @@ with col2:
     if st.button("📥 Load Sample Dataset"):
         df = load_sample_data()
         st.success("Dataset loaded successfully!", icon="✅")
-        st.dataframe(df.head(), width=700)
+        st.dataframe(df.head(), width=825)
 
 # ================================================
 # RUN ANALYSIS
