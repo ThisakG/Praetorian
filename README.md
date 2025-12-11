@@ -106,13 +106,13 @@ Praetorian/
 
 # Why Isolation Forest
 
-Robust for high-dimensional log data
+- Robust for high-dimensional log data
 
-Unsupervised → no need for exact labels
+- Unsupervised → no need for exact labels
 
-Outputs anomaly score + prediction
+- Outputs anomaly score + prediction
 
-Lightweight & production-ready
+- Lightweight & production-ready
 
 # 🧬 Synthetic Dataset Generation
 
@@ -128,7 +128,7 @@ Fields Included:
 
 - ip
 
--login_success
+- login_success
 
 - session_duration
 
@@ -157,8 +157,8 @@ Fields Included:
 
 # Seperated the sythetic data by a train-test split
 
-train.csv (80%)
-test.csv  (20%)
+- train.csv (80%)
+- test.csv  (20%)
 
 # 🧼 Preprocessing Logic (src/preprocess.py)
 
@@ -176,12 +176,10 @@ Preprocessing is identical for training and test data, with consistent handling 
 
 ✔ Numerical fields: login_success, failed_attempts, session_duration, hour, ip_1, ip_2, ip_3, ip_4
 
-✔ Output
+✔ Output of Two files:
 
-Two files:
-
-train_preprocessed.csv
-test_preprocessed.csv
+- train_preprocessed.csv
+- test_preprocessed.csv
 
 # 🤖 Model Training (models/train_model.py)
 
