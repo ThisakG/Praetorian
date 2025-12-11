@@ -77,7 +77,7 @@ with col2:
 
         st.session_state["processed"] = processed
         st.success("Analysis complete!", icon="✅")
-        st.dataframe(processed.head(), width=700)
+        st.dataframe(processed.head(), width=825)
 
 # ================================================
 # VISUALIZATION SECTION
@@ -112,7 +112,7 @@ if "processed" in st.session_state:
     top = df.sort_values("anomaly_score", ascending=False).head(20)
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
-        st.dataframe(top, width=700)
+        st.dataframe(top, width=825)
 
 # ================================================
 # EVALUATION SECTION
@@ -136,7 +136,7 @@ st.markdown("<h2 style='text-align: center'>📄 Raw Scored Data</h2>", unsafe_a
 if "processed" in st.session_state:
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
-        st.dataframe(st.session_state["processed"], width=700)
+        st.dataframe(st.session_state["processed"], width=825)
 
 # ================================================
 # EXPORT
