@@ -1,6 +1,6 @@
 # Praetorian — Anomaly Detection & Analytics Dashboard
 
-Praetorian is a machine-learning–powered anomaly detection system built using <b>Isolation Forest<b>, featuring an interactive Streamlit web interface, real-time scoring, visualization, model evaluatiob, and CSV exporting capabilities. 
+Praetorian is a machine-learning–powered anomaly detection system built using <b>Isolation Forest<b>, featuring an interactive Streamlit web interface, real-time scoring, visualization, model evaluation, and CSV exporting capabilities. 
 
 This learning project / demo was creating in order to get a glimpse of how security teams can analyse user session data, derive anomaly scores, detect risky behaviour and visualize insights. 
 
