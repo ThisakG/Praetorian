@@ -4,7 +4,7 @@ Praetorian is a machine-learning–powered anomaly detection system built using 
 
 This learning project / demo was creating in order to get a glimpse of how security teams can analyse user session data, derive anomaly scores, detect risky behaviour and visualize insights. 
 
-Dashboard: http://192.168.1.15:8502 
+Dashboard: https://praetorian-eeqkhujrhgf8groxyvleyg.streamlit.app/
 
 
 # 🚀 Features
@@ -216,7 +216,7 @@ Features:
 
 
 
-# ▶️ How to Run the Project
+# ▶️ How to Run the Project Locally
 
 1️⃣ Clone the repository
 git clone https://github.com/<yourusername>/Praetorian.git
